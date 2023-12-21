@@ -6,7 +6,7 @@ import Results from '../components/Results'
 
 function page() {
   return (
-    <div className='min-h-screen w-full flex flex-col items-center'>
+    <div className='h-[300px] w-full flex flex-col items-center mb-4'>
       <SearchBar />
       <Results />
     </div>
